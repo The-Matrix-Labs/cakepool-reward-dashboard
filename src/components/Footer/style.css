@@ -1,0 +1,19 @@
+.footerWrapper{
+    display: flex;
+    background: #00A9BE;
+    width: 100%;
+    padding: 1em 10%;
+    justify-content: space-between;
+}
+
+.socialWrapper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.socialWrapper img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

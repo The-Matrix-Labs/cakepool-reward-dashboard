@@ -1,0 +1,24 @@
+.navbarWrapper{
+    display: flex;
+    padding: 1em 10%;
+    justify-content: space-between;
+    background: #00A9BE;
+}
+
+.connectWalletBtn{
+    background: #61ECFF;
+    border-radius: 15px;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #00191D;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.logoWrapper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
