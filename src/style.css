@@ -296,3 +296,54 @@ html{
   margin: 10px 0;
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 850px) {
+  .topGrid{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .tokenInfoDiv{
+    width: 80%;
+  }
+  .centerGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .bottomGrid{
+    display: flex;
+    flex-direction: column;
+    background-color: #00191D;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+  }
+  .totalDividend{
+    border-radius: 10px;
+    background: #035D68;
+    padding: 2em 1em;
+  }
+  .socialWrapper img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  .mainContent{
+    gap: 30px;
+  }
+  .calculatorGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .tokenCrousel {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+}

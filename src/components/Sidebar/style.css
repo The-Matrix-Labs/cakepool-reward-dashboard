@@ -1,6 +1,6 @@
 .sidebarWrapper{
     display: flex;
-    width: 200px;
+    width: 250px;
     background: #003841;
     padding: 2em 0;
 }
@@ -14,11 +14,12 @@
 
 .options{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     font-size: 1rem;
     padding: 0.5em;
+    padding-left: 10%;
     gap: 0.25em;
     cursor: pointer;
 }
@@ -31,3 +32,11 @@
 .activeOption{
     background: #00A9BE;
 }
+
+@media only screen and (max-width: 1100px) {
+    .sidebarWrapper
+    {
+        display: none;
+    }
+}
+
