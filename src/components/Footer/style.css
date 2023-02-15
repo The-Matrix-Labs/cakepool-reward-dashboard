@@ -1,9 +1,16 @@
+@font-face {
+    font-family: Doughnutmonster;
+    src: url("../assests/fonts/Doughnutmonster.ttf");
+}
+
 .footerWrapper{
     display: flex;
     background: #00A9BE;
     width: 100%;
     padding: 1em 10%;
     justify-content: space-between;
+    font-family: Doughnutmonster;
+    font-size: 20px;
 }
 
 .socialWrapper{

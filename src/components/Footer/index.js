@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../assests/images/logo.svg";
+import Logo from "../assests/images/Logo.png";
 import telegramIcon from "../assests/images/telegram-icon.svg";
 import twitterIcon from "../assests/images/twitter-icon.svg";
 import redditIcon from "../assests/images/reddit-icon.svg";
@@ -12,6 +12,7 @@ export default function Footer()
         <div className='footerWrapper'>
             <div className='logoWrapper'>
                 <img src={Logo} alt="logo"/>
+                <div>Cakepool</div>
             </div>
             <div className='socialWrapper'>
                 <img src={telegramIcon} alt="telegram-icon"/>

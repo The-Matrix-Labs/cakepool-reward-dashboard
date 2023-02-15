@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Doughnutmonster;
+    src: url("../assests/fonts/Doughnutmonster.ttf");
+}
+
 .navbarWrapper{
     display: flex;
     padding: 1em 10%;
@@ -21,6 +26,12 @@
     gap: 10px;
     align-items: center;
     cursor: pointer;
+    font-family: Doughnutmonster;
+    font-size: 20px;
+}
+
+.logoWrapper img{
+    width: 50px;
 }
 
 @media only screen and (max-width: 850px) {
